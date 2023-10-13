@@ -54,10 +54,6 @@ router.get("/login-failure", (req, res) => {
   res.send("Somthing went Wrong...");
 });
 
-// Presist user data after successful athentication
-passport.serializeUser(function (user, done) {
-  done(null, user.id);
-});
 
 //destroy user session
 router.get('/logout',(req, res) => {
@@ -71,6 +67,10 @@ router.get('/logout',(req, res) => {
   })
 })
 
+// Presist user data after successful athentication
+passport.serializeUser(function (user, done) {
+ done(null, user.id);
+});
 
 
 // Retrive user data from session .
