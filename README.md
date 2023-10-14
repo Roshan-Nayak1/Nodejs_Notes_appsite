@@ -7,7 +7,7 @@
 
 ## Description
 
-This is a Node.js web application for creating and managing notes. It incorporates various technologies such as MongoDB for data storage, Express.js for server-side logic, EJS for templating, and Passport.js for user authentication with Auth0. The app is designed to be deployed on Google Cloud for scalability.
+This is a Node.js web application for creating and maintaining notes. It uses technologies such as MongoDB for data storage, Express.js for server-side functionality, EJS for templating, and Passport.js for Auth0 user authentication. The project is designed to be deployed on Google Cloud for scalability.
 
 ## Features
 
